@@ -1,0 +1,23 @@
+{
+  "name": "conference-management-portal",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">     Conference Management Portal (CMP) </h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm start --prefix backend && npm start --prefix frontend",
+    "heroku-postbuild": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend" 
+  }, 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insane1304/Conference-Management-Portal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insane1304/Conference-Management-Portal/issues"
+  },
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}
