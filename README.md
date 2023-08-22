@@ -1,1 +1,0 @@
-# Conference Management Portal (CMP)
